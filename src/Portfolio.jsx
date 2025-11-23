@@ -16,6 +16,7 @@ import {
   Database,
   ChevronRight
 } from 'lucide-react';
+// import GyanResume from '../public/Gyan_kumar_CV_1_Year_ Experience.pdf'
 
 import ExperienceItem from './components/ExperienceItem';
 import ProjectCard from './components/ProjectCard';
@@ -114,7 +115,7 @@ const Portfolio = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <a href="/Gyan_kumar_CV_1+_Year_Experience.pdf" download className="flex items-center gap-2 px-8 py-4 bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 rounded-lg font-bold hover:translate-y-[-2px] transition-transform shadow-lg">
+              <a href='../public/Gyan_kumar_CV_1_Year_ Experience.pdf' download="Gyan Kumar CV.pdf" className="flex items-center gap-2 px-8 py-4 bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 rounded-lg font-bold hover:translate-y-[-2px] transition-transform shadow-lg">
                 <FileText size={20} /> Download CV
               </a>
               <div className="flex gap-3">
