@@ -115,7 +115,7 @@ const Portfolio = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <a href='./Gyan_kumar_CV_1_Year_Experience.pdf' download="Gyan_Kumar_CV.pdf" className="flex items-center gap-2 px-8 py-4 bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 rounded-lg font-bold hover:translate-y-[-2px] transition-transform shadow-lg">
+              <a target="_blank" href='https://drive.google.com/file/d/1XAmEvZpiirN40cLzf4EhMFVHw60sQqyJ/view?usp=sharing' download="Gyan_Kumar_CV.pdf" className="flex items-center gap-2 px-8 py-4 bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 rounded-lg font-bold hover:translate-y-[-2px] transition-transform shadow-lg">
                 <FileText size={20} /> Download CV
               </a>
               <div className="flex gap-3">
@@ -180,19 +180,19 @@ const Portfolio = () => {
               <SkillCard 
                 icon={<Server size={32} />} 
                 title="Backend Core" 
-                skills={['Java', 'Spring Boot', 'Node.js', 'Microservices', 'MySQL', 'System Design']}
+                skills={['Java', 'Spring Boot', 'Hibernate', 'Node.js', 'Python', 'Microservices', 'MySQL', 'System Design', 'Database Design', 'API Design', 'Event-Driven Architecture', 'Distributed Systems', 'Load Balancing', 'HLD', 'LLD', 'REST API', 'GraphQL', 'WebSocket']}
                 color="cyan"
               />
               <SkillCard 
                 icon={<Layout size={32} />} 
                 title="Frontend Modern" 
-                skills={['React.js', 'Redux Toolkit', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'HTML/CSS']}
+                skills={['React.js', 'Next.js', 'Vue.js', 'JavaScript', 'Redux Toolkit', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'Material UI', 'HTML/CSS']}
                 color="purple"
               />
               <SkillCard 
                 icon={<Cloud size={32} />} 
                 title="Cloud & DevOps" 
-                skills={['AWS (Bedrock/S3)', 'Docker', 'CI/CD', 'Linux', 'Git/GitHub', 'Postman']}
+                skills={['AWS', 'AWS EC2', 'AWS S3', 'AWS Lambda', 'AWS RDS', 'AWS Bedrock', 'AWS CloudFront', 'AWS CloudWatch', 'AWS SNS', 'AWS SQS', 'AWS BATCH', 'AWS ECS', 'Docker', 'CI/CD', 'Linux', 'Git/GitHub', 'Postman', ]}
                 color="green"
               />
             </div>
@@ -208,9 +208,9 @@ const Portfolio = () => {
               <ProjectCard 
                 title="AICTE Task Manager"
                 desc="A centralized platform for role-based task assignments and real-time collaboration. Features chat, meeting scheduling, and automated notifications."
-                tags={['Spring Boot', 'MySQL', 'AWS', 'WebSocket']}
+                tags={['Java', 'Spring Boot', 'Hibernate', 'MySQL', 'AWS', 'WebSocket', 'Android', 'Rest API', 'Firebase']}
                 icon={<Cpu />}
-                link="https://github.com/GyanKumar62065"
+                link="https://github.com/GyanKumar62065/SIH/"
                 color="cyan"
               />
               <ProjectCard 
@@ -218,7 +218,7 @@ const Portfolio = () => {
                 desc="Hospital management system for patient/doctor coordination. Includes medical record centralization and automated appointment handling."
                 tags={['Java', 'Swing', 'JDBC', 'MySQL']}
                 icon={<Database />}
-                link="#"
+                link="https://github.com/GyanKumar62065/SnajeevaniApplication/"
                 color="purple"
               />
             </div>
@@ -232,13 +232,13 @@ const Portfolio = () => {
             <p className="text-slate-600 dark:text-slate-400 mb-8">
               I'm currently looking for new opportunities in Backend & Full-Stack Engineering. Whether you have a question or just want to say hi, my inbox is always open.
             </p>
-            <a href="mailto:gyankumar62065@gmail.com" className="inline-flex items-center gap-2 px-8 py-4 border border-cyan-600 dark:border-cyan-500 text-cyan-700 dark:text-cyan-400 rounded-lg font-mono text-sm hover:bg-cyan-50 dark:hover:bg-cyan-500/10 transition-all">
+            <a target='_blank' href="mailto:gyankumar62065@gmail.com" className="inline-flex items-center gap-2 px-8 py-4 border border-cyan-600 dark:border-cyan-500 text-cyan-700 dark:text-cyan-400 rounded-lg font-mono text-sm hover:bg-cyan-50 dark:hover:bg-cyan-500/10 transition-all">
               <Mail size={18} /> gyankumar62065@gmail.com
             </a>
             
             <div className="mt-16 flex justify-center gap-6 text-slate-500">
-               <a href="https://github.com/GyanKumar62065" className="hover:text-slate-900 dark:hover:text-white"><Github /></a>
-               <a href="https://www.linkedin.com/in/gyan-kumar-988a32203/" className="hover:text-cyan-600 dark:hover:text-cyan-400"><Linkedin /></a>
+               <a target='_blank' href="https://github.com/GyanKumar62065" className="hover:text-slate-900 dark:hover:text-white"><Github /></a>
+               <a target='_blank' href="https://www.linkedin.com/in/gyan-kumar-988a32203/" className="hover:text-cyan-600 dark:hover:text-cyan-400"><Linkedin /></a>
             </div>
             <div className="mt-8 text-slate-400 dark:text-slate-600 text-xs font-mono">
               &copy; 2025 Gyan Kumar. Built with React & Tailwind.
