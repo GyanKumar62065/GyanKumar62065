@@ -8,7 +8,7 @@
 
 ## 👨‍💻 About Me
 
-I’m a **Full-Stack Engineer** with 1+ years of experience building high-performance backend services, clean frontends, and production-grade systems. I love turning chaos into clean architecture, optimizing performance, and delivering products that scale effortlessly.
+I’m a **Full-Stack Engineer** with 2+ years of experience building high-performance backend services, clean frontends, and production-grade systems. I love turning chaos into clean architecture, optimizing performance, and delivering products that scale effortlessly.
 
 I’ve worked across backend, frontend, and DevOps — designing APIs, modeling databases, solving infra bottlenecks, and owning features end-to-end from idea → development → deployment.
 
